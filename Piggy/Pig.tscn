@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Piggy Game Resources/Pig.png" type="Texture" id=1]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 11.9999
+height = 16.0001
+
+[node name="Pig" type="Area2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 1 )
+hframes = 3
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2( 1, 8 )
+rotation = 1.5708
+shape = SubResource( 1 )
