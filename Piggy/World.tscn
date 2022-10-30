@@ -16,10 +16,6 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="Pig" parent="." instance=ExtResource( 1 )]
-position = Vector2( 158, 81 )
-script = ExtResource( 4 )
-
 [node name="Apple" parent="." instance=ExtResource( 2 )]
 position = Vector2( 276, 198 )
 
@@ -37,3 +33,7 @@ position = Vector2( 591, 83 )
 
 [node name="Apple6" parent="." instance=ExtResource( 2 )]
 position = Vector2( 75, 262 )
+
+[node name="Pig" parent="." instance=ExtResource( 1 )]
+position = Vector2( 158, 81 )
+script = ExtResource( 4 )
