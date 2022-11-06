@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Explode.wav-93a33fccd1aa327c6cc6a54a5f453940.sample"
+
+[deps]
+
+source_file="res://Heart Space Shooter Resources/Explode.wav"
+dest_files=[ "res://.import/Explode.wav-93a33fccd1aa327c6cc6a54a5f453940.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

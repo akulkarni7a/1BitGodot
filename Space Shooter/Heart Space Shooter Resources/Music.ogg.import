@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Music.ogg-7758a47a321acd3ac8598ea98936d6ed.oggstr"
+
+[deps]
+
+source_file="res://Heart Space Shooter Resources/Music.ogg"
+dest_files=[ "res://.import/Music.ogg-7758a47a321acd3ac8598ea98936d6ed.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
