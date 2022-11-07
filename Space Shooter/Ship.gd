@@ -13,9 +13,15 @@ func _process(delta):
 		move(0,speed,delta)
 	
 	if Input.is_action_just_pressed("ui_select"):
-		var bullet = Bullet.instance()
-		self.add_child(bullet)
+		fireBullet()
 
 func move(x,y,delta):
 	position.x += x * delta
 	position.y += y * delta
+
+func fireBullet():
+	var bullet = Bullet.instance()
+	var main = get_tree().current_scene
+	main.add_child(bullet)
+	bullet.global_position = global_position
+	
