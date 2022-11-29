@@ -1,6 +1,6 @@
 extends Area2D
 
-export(int) var SPEED = 20
+export(int) var SPEED = 50
 export(int) var ARMOR = 3
 
 # Called when the node enters the scene tree for the first time.
