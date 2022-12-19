@@ -11,8 +11,13 @@ config_version=4
 [application]
 
 config/name="Space Shooter"
-run/main_scene="res://World.tscn"
+run/main_scene="res://StartMenu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+SaveAndLoad="*res://SaveAndLoad.gd"
+Music="*res://Music.tscn"
 
 [display]
 
